@@ -30,6 +30,7 @@ header h1 {
   font-size: 40px;
   font-weight: 300;
   margin: 0;
+  padding: 15px 0px;
   text-align: center;
 }
 
@@ -131,8 +132,7 @@ button {
   box-shadow: inset 0px 2px 6px rgba(0,0,0,0.5), 0px 2px 5px rgba(220,255,255,0.15);
   display: inline-block;
   margin: 0 auto 12px;
-  min-height: 412px;
-  min-width: 1200px;
+  width: auto;
   padding: 16px;
   visibility: hidden;
 }
@@ -146,7 +146,6 @@ button {
   overflow: hidden;
   padding: 6px 4px 32px 4px;
   position: relative;
-  width: 55px;
 }
 
 
@@ -365,10 +364,16 @@ button {
   header {
     margin: 20px 0 15px;
   }
+  header h1 {
+    font-size: 30px;
+  }
   #mixer {
-    min-width: 900px;
+    /* min-width: 900px; */
   }
   #meters {
     display: none;
+  }
+  .channel {
+    width: 12.5%;
   }
 }
